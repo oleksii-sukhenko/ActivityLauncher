@@ -21,11 +21,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        style="@style/RoundButtonStyle"
         android:id="@+id/apple_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:background="@drawable/oval_button"
         android:text="Apple"
         android:textColor="@android:color/holo_green_dark"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,11 +30,8 @@
         app:layout_constraintTop_toBottomOf="@id/name_text" />
 
     <Button
+        style="@style/RoundButtonStyle"
         android:id="@+id/banana_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:background="@drawable/oval_button"
         android:text="Banana"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintEnd_toEndOf="parent"
